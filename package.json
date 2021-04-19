@@ -1,11 +1,14 @@
 {
-  "name": "Lorem-ipsum-zh-tw",
-  "version": "1.0.0",
-  "description": "Your Figma plugin",
+  "name": "lorem-ipsum-zh-tw",
+  "version": "0.1.0",
+  "description": "A Lorem ipsum generator with Traditional Chinese for Figma plugin",
   "main": "code.js",
   "scripts": {
     "build": "tsc -p tsconfig.json"
   },
-  "author": "",
-  "license": ""
+  "author": "Louis Su",
+  "license": "MIT License",
+  "devDependencies": {
+    "@figma/plugin-typings": "^1.19.3"
+  }
 }
