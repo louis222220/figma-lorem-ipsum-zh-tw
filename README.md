@@ -2,6 +2,7 @@
 
 A Lorem ipsum generator with Traditional Chinese (繁體中文, in Taiwan) for Figma plugin.
 
+![Imgur](https://imgur.com/3bsF8kL.gif)
 
 ## Credits:
 
