@@ -1,17 +1,19 @@
-<h2>Rectangle Creator</h2>
-<p>Count: <input id="count" value="5"></p>
-<button id="create">Create</button>
-<button id="cancel">Cancel</button>
+<h2>Lorem ipsum zh-tw 隨機繁體中文產生器</h2>
+<p>字數: <input type='number' id="count" value="100"></p>
+<button id="generateText">無標點符號</button>
+<button id="generateTextWithPunctuation">有標點符號</button>
 <script>
 
-document.getElementById('create').onclick = () => {
+document.getElementById('generateText').onclick = () => {
   const textbox = document.getElementById('count');
   const count = parseInt(textbox.value, 10);
-  parent.postMessage({ pluginMessage: { type: 'create-rectangles', count } }, '*')
+  parent.postMessage({ pluginMessage: { type: 'generateText', count } }, '*')
 }
 
-document.getElementById('cancel').onclick = () => {
-  parent.postMessage({ pluginMessage: { type: 'cancel' } }, '*')
+document.getElementById('generateTextWithPunctuation').onclick = () => {
+  const textbox = document.getElementById('count');
+  const count = parseInt(textbox.value, 10);
+  parent.postMessage({ pluginMessage: { type: 'generateTextWithPunctuation', count } }, '*')
 }
 
 </script>
