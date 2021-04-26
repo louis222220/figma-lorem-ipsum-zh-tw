@@ -6,25 +6,30 @@ A Lorem ipsum generator with Traditional Chinese used in Taiwan (zh-tw) for Figm
 
 給 Figma 設計工作者的隨機繁體中文產生器
 
+
 Use it to append random zh-tw words into the selected text box with the same font.
 
 自動在選取的文字方塊，插入相同字型的隨機中文
 
 ![demo](https://imgur.com/3bsF8kL.gif)
 
+
 ## Credits
 
 - [Frequency and Stroke Counts of Chinese Characters](http://technology.chtsai.org/charfreq/)
 - Inspired by [sooxin/Chinese-Lorem-Ipsum](https://github.com/sooxin/Chinese-Lorem-Ipsum)
 
+
 ## Authors
 
 - Developer - [Louis](https://github.com/louis222220)
-- Icon/Banner Designer - [Nagi]()
+- Icon/Banner Designer - [Nagi Tseng](https://www.tsengyuting.com/)
+
 
 ## License
 
 MIT License
+
 
 ## How to create your own Figma plugin
 
