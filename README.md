@@ -4,12 +4,16 @@
 
 A Lorem ipsum generator with Traditional Chinese used in Taiwan (zh-tw) for Figma plugin.
 
-給 Figma 設計工作者的隨機繁體中文產生器
+給需要製作中文語系介面的設計工作者做的隨機繁體中文產生器
 
 
-Use it to append random zh-tw words into the selected text box with the same font.
+Use it to append random zh-tw words into the selected text box with the same font. And Punctuation mark is optional.
 
-自動在選取的文字方塊，插入相同字型的隨機中文
+可以在選取的文字方塊內，隨機產生所需字數/有無標點符號
+
+The generated words will be set properties identical to the last character in the text box.
+
+產生的隨機文字會與文字方塊內最後的字元有相同的屬性（properties）
 
 ![demo](https://imgur.com/3bsF8kL.gif)
 
